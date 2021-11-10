@@ -10,4 +10,4 @@ python manage.py migrate
 python manage.py runserver
 ```
 ### ERD
-![Kiku](./C2C_ERD.png)
+![ERD](./C2C_ERD.png)

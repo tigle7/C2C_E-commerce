@@ -11,4 +11,4 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 ### ERD
-![ERD](./C2C_ERD.svg)
+![ERD](./C2C_ERD.png)

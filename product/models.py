@@ -46,8 +46,10 @@ class Product(models.Model):
         verbose_name=('Picture'),
         upload_to='uploads',
     )
-    category = models.ManyToManyField(
+    category = models.ForeignKey(
         Category,
+        on_delete=models.SET_NULL,
+        null=True,
     )
     desc = models.TextField(
         verbose_name=('Description')

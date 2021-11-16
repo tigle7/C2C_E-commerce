@@ -56,7 +56,7 @@ class FavoriteList(models.Model):
     )
     products = models.ManyToManyField(
         Product,
-        verbose_name=('Products for sale'),
+        verbose_name=('Products'),
     )
 
     def __str__(self):
